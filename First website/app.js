@@ -13,4 +13,6 @@ if (className == "light-theme"){
 } else {
     this.textContent = "Light";
 }
+
+console.log('Current class name:' + className);
 });
