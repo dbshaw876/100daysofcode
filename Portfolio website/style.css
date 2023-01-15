@@ -1,0 +1,116 @@
+html, body{
+    height: 100%;
+}
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #2e2d2dcc;
+    font-family: "Roboto";
+    font-size: 12pt,
+}
+
+h1, h2, h3{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+p, ol, ul{
+    margin: 0;
+}
+
+p{
+    line-height: 180%;
+}
+
+ol, ul{
+    margin-top: 0;
+}
+
+.container{
+    /* set width of container to 1200px and align center */
+    margin: 0px auto;
+    width: 1400px;
+} 
+
+
+  
+  
+header{
+    overflow: hidden;
+}
+
+#top-header{
+    text-align:center;
+    height:60px;
+}
+
+#logo{
+    float: left;
+    padding: none;
+    margin: none;
+    height: 60px;
+    width: 30%;
+}
+
+#logo img{
+    width: 60%;
+    float: left;
+    padding: 10px 0px;
+}
+
+#menu{
+    float: right;
+    width: 70%;
+    height: 100%;
+    margin: none;
+}
+
+#menu ul{
+        text-align: center;
+        float: right;
+        margin: none;
+        background: #575a58;
+    }
+       
+    #menu li{
+        display: inline-block;
+        padding: none;
+        margin: none;
+    }
+
+
+
+#menu li a, #menu li span{
+    display: inline-block;
+    padding: 0rem 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+
+}
+
+#menu li a{
+    color: #FFF;
+
+}
+
+#menu li:hover a, #menu lli span{
+    background: #fff;
+    color: #696b6a;
+    border-left: 1px solid #1d3041;
+    text-decoration: none;
+}
+
+#intro{
+    text-align: left;
+    padding: 20%
+    
+
+}
+
+
